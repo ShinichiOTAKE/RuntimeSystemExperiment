@@ -1,6 +1,4 @@
 HELP.md
-application-dev.yml
-application-prod.yml
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
@@ -35,20 +33,5 @@ out/
 /nbdist/
 /.nb-gradle/
 
-### node.js ###
-node_modules/
-
-### Compiled class file ###
-*.class
-
-### Log file ###
-*.log
-
-### Mac OS ###
-.DS_Store*
-
-### SVN ###
-**/.svn
-
-## dbeaver
-**/.dbeaver
+### VS Code ###
+.vscode/

@@ -1,0 +1,4 @@
+# プロファイル
+spring:
+  profiles:
+    active: dev

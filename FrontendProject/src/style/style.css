@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.navigation {
+  margin: 0px 0px 0px 10px;
+  border-bottom: 1px solid green;
+}
+  
+.title-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+  
+.title-bar ul li {
+  display: inline-block;
+  width: fit-content;
+  margin-right: 25px;
+}
+  
+.menu-bar ul {
+  list-style-type: none;
+  margin: 15px 0px 3px 15px;
+  padding: 0;
+}
+  
+.menu-bar ul li {
+  display: inline-block;
+  width: 100px;
+}
+  
+.menu-bar ul li a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: black
+}
+  
+.menu-bar ul li a::after {
+  position: absolute;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 5px;
+  background: green;
+  bottom: -4px;
+  visibility: hidden;
+}
+  
+.menu-bar ul li a:hover::after {
+  visibility: visible;
+}
